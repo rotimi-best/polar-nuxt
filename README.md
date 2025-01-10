@@ -1,6 +1,6 @@
-# Nuxt Minimal Starter
+# Polar Nuxt Demo
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This is a demo of how to use Polar with Nuxt and this implementation uses the `sandbox` environment.
 
 ## Setup
 
@@ -38,38 +38,11 @@ yarn dev
 bun run dev
 ```
 
-## Production
+## Environment Variables
 
-Build the application for production:
+Sign up on [sandbox.polar.sh](https://sandbox.polar.sh) to set up your accont. For the demo to work, you only need the following:
 
-```bash
-# npm
-npm run build
+- POLAR_ACCESS_TOKEN
+- POLAR_WEBHOOK_SECRET
 
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+**Note**: You can copy the `.env.example` file and paste into `.env`.
